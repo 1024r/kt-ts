@@ -1,0 +1,21 @@
+class Point {
+     public x: number
+     public y: number
+     public z: number
+
+    constructor(one: number, two: number, three: number) {}
+}
+
+class Triangle {
+    x: number;
+    y: number;
+    z: number; 
+    
+    constructor(one?: number, two?: number, three?: number, four?: number, five?: number, six?: number) {}
+}
+
+let triangle1 = new Triangle()
+let triangle2 = new Triangle(1, 2, 3, 4, 5, 6)
+
+console.log(triangle1)
+console.log(triangle2)
